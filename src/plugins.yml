@@ -1,0 +1,12 @@
+name: FirstPluginTutorial2
+version: 1.0.0
+api-version: 1.15
+author: darkenedfusion
+description: A tutorial plugin.
+main: io.github.darkenedfusion.FirstPluginTutorial2.FirstPluginTutorial2
+commands:
+  sword:
+    description: Give a diamond sword.
+    usage: /sword
+    permission: tutorialplugin.sword
+    permission-message: No permission!
